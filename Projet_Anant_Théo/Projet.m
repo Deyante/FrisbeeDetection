@@ -5,7 +5,7 @@ close all;
 
 % Chargement de la vidéo et extraction des images que l'on range dans une
 % matrice
-[liste_im, nombre_frame] = f_extraction('Foret.mp4');
+[liste_im, nombre_frame] = f_extraction('Terrain.mp4');
 
 % Image initiale
 im = liste_im{1};
